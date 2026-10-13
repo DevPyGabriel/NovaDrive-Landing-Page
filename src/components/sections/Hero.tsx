@@ -15,15 +15,15 @@ export const Hero = () => {
             <div className=' px-4 pb-4 xs:pb-8 sm:pb-12 pt-16 sm:pt-18 h-full'>
 
               <div className='w-full h-full flex flex-col items-center justify-center my-auto'>
-                <div className='w-full flex flex-col gap-16 md:gap-20 lg:gap-24 relative '>
-                  <h1 className='leading-none text-[4.9rem] xs:text-[5.5rem] md:text-[6rem] lg:text-[7rem] xl:text-[7.5rem] tracking-[-0.075em] text-gray-50 pt-6 sm:pt-0 lg:pt-6'>
+                <div className='w-full flex flex-col gap-12 md:gap-20 lg:gap-24 relative '>
+                  <h1 className='leading-none text-[4.9rem] xs:text-[6rem] md:text-[6.5rem] lg:text-[7rem] xl:text-[7.5rem] tracking-[-0.075em] text-gray-50 pt-6 sm:pt-0 lg:'>
                     Tu tiempo merece
                     <br />
                     un <span className='font-instrument italic font-normal tracking-tighter text-lime-300'>mejor traslado</span>
                   </h1>
                   <div className='flex flex-col'>
                     <p className='max-w-md md:max-w-xl lg:max-w-2xl xl:max-w-4xl tracking-tight text-base sm:text-lg font-light lg:text-xl leading-normal text-gray-50'>
-                      Desde viajes express hasta rutas programadas para colegios, universidades y empresas. Una solución de transporte cómoda, puntual y adaptada a tus necesidades.
+                      Desde viajes express hasta <span className='text-lime-300 font-normal'>rutas programadas</span> para colegios, universidades y empresas. Una solución <span className='text-lime-300 font-normal'>adaptada a tus comodidades.</span>
                     </p>
                     <div className='mt-6 sm:mt-8'>
                       <div className='flex items-center gap-y-2.5 gap-x-3 flex-wrap'>

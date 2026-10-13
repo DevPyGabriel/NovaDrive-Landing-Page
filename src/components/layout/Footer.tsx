@@ -214,7 +214,7 @@ export const Footer = () => {
               <p className="text-sm text-neutral-500">
                 Desarrollado por{" "}
                 <a
-                  href="https://www.linkedin.com/in/gabriel-fernandez"
+                  href="https://github.com/DevPyGabriel"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-neutral-400 transition-colors duration-200 hover:text-lime-300 underline underline-offset-4 focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-lime-300"

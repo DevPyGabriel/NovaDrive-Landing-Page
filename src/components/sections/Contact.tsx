@@ -47,9 +47,9 @@ type FormState = {
 type FormErrors = Partial<Record<keyof FormState, string>>;
 
 const INITIAL_STATE: FormState = {
-  service: "",
-  timing: "",
-  method: "",
+  service: EXPRESS_SERVICE,
+  timing: EXPRESS_TIMING_OPTIONS[0],
+  method: METHOD_OPTIONS[0],
   origin: "",
   destination: "",
   schedule: "",

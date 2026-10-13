@@ -1,75 +1,62 @@
-# React + TypeScript + Vite
+# NovaDrive – Landing Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Landing page profesional para **NovaDrive**, un servicio de transporte privado con sede en Maracaibo, Zulia (Venezuela). Diseñada para presentar sus servicios, generar confianza y captar cotizaciones directamente vía WhatsApp.
 
-Currently, two official plugins are available:
+## 🎯 Objetivo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+El objetivo de esta landing page es **dar visibilidad digital a NovaDrive**, permitiendo que potenciales clientes (estudiantes, empresas y particulares) conozcan sus traslados express, rutas programadas y soliciten una cotización de forma rápida y directa.
 
-## React Compiler
+## 👨‍💻 ¿Quién la desarrolló?
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Esta web fue desarrollada por **Gabriel Fernández** como parte de su portafolio profesional.
 
-## Expanding the ESLint configuration
+- [Ver perfil de LinkedIn](https://www.linkedin.com/in/gabriel-co-fernandez/)
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## 💡 ¿Por qué se desarrolló?
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+Se desarrolló con la finalidad de:
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+- Crear una **presencia web moderna y profesional** para NovaDrive.
+- Facilitar el **contacto y la captación de leads** mediante un botón directo a WhatsApp.
+- Mostrar los servicios de forma clara, ordenada y optimizada para conversión.
+- Agregar este proyecto al **portafolio personal** de Gabriel Fernández para demostrar capacidades en desarrollo frontend moderno.
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+## ✨ Características
 
-```
+- Diseño moderno, minimalista y responsive (mobile-first)
+- Animaciones suaves con **GSAP** y **ScrollTrigger**
+- Secciones: Inicio, Servicios, Preguntas Frecuentes, Contacto
+- Botón directo a **WhatsApp** para cotizar traslados
+- Enlaces a redes sociales (Instagram, TikTok, WhatsApp)
+- Modal con **Términos y Condiciones** y **Política de Privacidad y Cookies**
+- Accesible y con soporte para `prefers-reduced-motion`
 
-You can also install [eslint-plugin-react-x](https://npmx.dev/package/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://npmx.dev/package/eslint-plugin-react-dom) for React-specific lint rules:
+## 🛠️ Tecnologías utilizadas
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+- [React](https://react.dev/) + [Vite](https://vitejs.dev/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [GSAP](https://gsap.com/)
+- [Lucide React](https://lucide.dev/)
+- [Framer Motion](https://motion.dev/) (utilizado en componentes interactivos)
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+## 🚀 Cómo ejecutar el proyecto localmente
 
-```
+### 1. Clonar el repositorio
+
+```bash
+git clone https://github.com/DevPyGabriel/NovaDrive-Landing-Page.git
+cd "Public Website"
+2. Instalar dependencias
+npm install
+3. Ejecutar en modo desarrollo
+npm run dev
+La app se abrirá en http://localhost:5173 (http://localhost:5173)
+4. Compilar para producción
+npm run build
+5. Previsualizar build
+npm run preview
+📄 Licencia
+© {año actual} NovaDrive. Todos los derechos reservados.
+🤝 Créditos
+Desarrollado por Gabriel Fernández – LinkedIn (https://www.linkedin.com/in/gabriel-co-fernandez/)

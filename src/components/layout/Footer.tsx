@@ -206,10 +206,23 @@ export const Footer = () => {
             data-anim
             className="flex flex-col gap-4 border-t border-white/10 pt-8 sm:flex-row sm:items-center sm:justify-between lg:pt-10"
           >
-            <p className="text-sm text-neutral-500">
-              © {new Date().getFullYear()} NovaDrive. Todos los derechos
-              reservados.
-            </p>
+            <div className="flex flex-col gap-1">
+              <p className="text-sm text-neutral-500">
+                © {new Date().getFullYear()} NovaDrive. Todos los derechos
+                reservados.
+              </p>
+              <p className="text-sm text-neutral-500">
+                Desarrollado por{" "}
+                <a
+                  href="https://www.linkedin.com/in/gabriel-fernandez"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-neutral-400 transition-colors duration-200 hover:text-lime-300 underline underline-offset-4 focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-lime-300"
+                >
+                  Gabriel Fernández
+                </a>
+              </p>
+            </div>
 
             <div className="flex flex-col items-start gap-2 sm:flex-row sm:items-center sm:gap-6">
               <button
@@ -243,5 +256,3 @@ export const Footer = () => {
     </footer>
   );
 };
-
-export default Footer;

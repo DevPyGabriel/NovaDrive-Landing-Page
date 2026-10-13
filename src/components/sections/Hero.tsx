@@ -16,7 +16,7 @@ export const Hero = () => {
 
               <div className='w-full h-full flex flex-col items-center justify-center my-auto'>
                 <div className='w-full flex flex-col gap-16 md:gap-20 lg:gap-24 relative '>
-                  <h1 className='leading-none text-[4rem] xs:text-[4.5rem] sm:text-[5rem] md:text-[5.5rem] lg:text-[7rem] xl:text-[7.5rem] tracking-[-0.075em] text-gray-50 pt-3 md:pt-5 lg:pt-6'>
+                  <h1 className='leading-none text-[4rem] xs:text-[4.5rem] sm:text-[5rem] md:text-[5.5rem] lg:text-[7rem] xl:text-[7.5rem] tracking-[-0.075em] text-gray-50 pt-6'>
                     Tu tiempo merece
                     <br />
                     un <span className='font-instrument italic font-normal tracking-tighter text-lime-300'>mejor traslado</span>
